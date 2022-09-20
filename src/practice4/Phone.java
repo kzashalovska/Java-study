@@ -6,13 +6,10 @@ public class Phone {
     double weight;
 
     Phone(long number, String model, double weight) {
-        this.number = number;
-        this.model = model;
+        this(number, model);
         this.weight = weight;
     }
 
-    // method no used, but the task has a task to use this
-    // constructor in a constructor that has three arguments
     Phone(long number, String model) {
         this.number = number;
         this.model = model;
