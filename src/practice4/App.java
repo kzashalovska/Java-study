@@ -17,12 +17,9 @@ public class App {
         Phone telefonNikita = new Phone(numberNikita, model1, weight2);
         Phone telefonTanya = new Phone(numberTanya, model2, weight3);
 
-        System.out.println("Number = " + telefonKolya.number + " model = "
-                + telefonNikita.model + " weight = " + telefonKolya.weight);
-        System.out.println("Number = " + telefonNikita.number + " model = "
-                + telefonNikita.model + " weight = " + telefonNikita.weight);
-        System.out.println("Number = " + telefonTanya.number + " model = "
-                + telefonTanya.model + " weight = " + telefonTanya.weight + "\n");
+        System.out.println(telefonKolya.toString());
+        System.out.println(telefonNikita.toString());
+        System.out.println(telefonTanya.toString());
 
         final String name1 = "Kolya";
         final String name2 = "Nikita";
@@ -47,8 +44,11 @@ public class App {
 
         System.out.println("WORK WITH CLASS PERSON" + "\n");
 
+
+
         Person user1 = new Person("Petrenko Petr Petrovich", 32);
         Person user2 = new Person();
+        System.out.println(user1.toString());
         user2.move();
 
         user1.talk();

@@ -28,4 +28,12 @@ public class Person {
             System.out.println("I have grown old" + "\n" + "I am " + age);
         }
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "fullName='" + fullName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

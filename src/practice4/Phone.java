@@ -42,4 +42,13 @@ public class Phone {
         for (String x : number) System.out.print(x + "\n");
         System.out.println();
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +
+                "number='" + number + '\'' +
+                ", model='" + model + '\'' +
+                ", weight=" + weight +
+                '}';
+    }
 }
