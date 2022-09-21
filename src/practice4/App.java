@@ -9,9 +9,9 @@ public class App {
         double weight3 = 132.4;
         double weight2 = 125.8;
         // How write "0" first symbol into changeable?
-        int numberKolya = 661583104;
-        int numberNikita = 661746568;
-        int numberTanya = 999537357;
+        String numberKolya = "0661583104";
+        String numberNikita = "0661746568";
+        String numberTanya = "0999537357";
 
         Phone telefonKolya = new Phone(numberKolya, model2, weight1);
         Phone telefonNikita = new Phone(numberNikita, model1, weight2);
@@ -30,17 +30,17 @@ public class App {
 
         telefonKolya.receiveCall(name1);
         telefonKolya.receiveCall(name1, numberKolya);
-        final long number1 = telefonKolya.getNumber();
+        final String number1 = telefonKolya.getNumber();
         System.out.println("print number with method getNumber:");
         System.out.println(number1 + "\n");
         telefonNikita.receiveCall(name2);
         telefonKolya.receiveCall(name2, numberNikita);
-        final long number2 = telefonNikita.getNumber();
+        final String number2 = telefonNikita.getNumber();
         System.out.println("print number with method getNumber:");
         System.out.println(number2 + "\n");
         telefonTanya.receiveCall(name3);
         telefonKolya.receiveCall(name3, numberTanya);
-        final long number3 = telefonTanya.getNumber();
+        final String number3 = telefonTanya.getNumber();
         System.out.println("print number with method getNumber:");
         System.out.println(number3 + "\n");
         telefonTanya.sendMessage(number1, number2);
