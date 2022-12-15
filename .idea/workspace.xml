@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b311a9a8-be3e-47cf-a8fe-6120a45126aa" name="Changes" comment="Proba 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="ProgramingJava" />
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="FundamentalsJava" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="de5cb434-81b0-4b66-9e3f-79d64e1df74b" />
+        <option name="url" value="https://github.com/kzashalovska/Java-study.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Etm8Cyjrt5L1WKHGhjmxuYZ3BZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/admin/Desktop/Проекти/Java-study/out/production/Java-study/lecture5",
+    "settings.editor.selected.configurable": "settings.sync"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice4Exception" />
+      <recent name="lecture9" />
+      <recent name="lecture8" />
+      <recent name="lecture7" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Проекти\Java-study" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lecture9" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FundamentalspPractice_4Exception.App">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsLecture_6.App" />
+      <module name="Java-study" />
+      <option name="VM_PARAMETERS" value="-XX:AutoBoxCacheMax=300" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundamentalsLecture_8.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsLecture_8.App" />
+      <module name="Java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FundamentalsLecture_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundamentalsLecture_9.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsLecture_9.App" />
+      <module name="Java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FundamentalsLecture_9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundamentalsPractice_3.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsPractice_3.App" />
+      <module name="Java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FundamentalsPractice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundamentalsPractice_7.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsPractice_7.App" />
+      <module name="Java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FundamentalsPractice_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundamentalspPractice_4Exception.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalspPractice_4Exception.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FundamentalspPractice_4Exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FundamentalsPractice_7.App" />
+        <item itemvalue="Application.FundamentalsPractice_3.App" />
+        <item itemvalue="Application.FundamentalspPractice_4Exception.App" />
+        <item itemvalue="Application.FundamentalsLecture_9.App" />
+        <item itemvalue="Application.FundamentalsLecture_8.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b311a9a8-be3e-47cf-a8fe-6120a45126aa" name="Changes" comment="" />
+      <created>1663423092953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663423092953</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lesson 3 - add class, which calculate sum of credit pays.">
+      <created>1663424917831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663424917831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 3 - add class, which calculate sum of credit pays.">
+      <created>1663497085378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663497085378</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 3 - add class, which calculate sum of credit pays.">
+      <created>1663669861570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663669861570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson 3 - add class, which calculate sum of credit pays.">
+      <created>1663683555378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663683555378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="practice4 - changed int to String for variable number">
+      <created>1663752821090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663752821090</updated>
+    </task>
+    <task id="LOCAL-00006" summary="practice4 - add method to String into class Person and Phone">
+      <created>1663754677285</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663754677285</updated>
+    </task>
+    <task id="LOCAL-00007" summary="practice2 - add 1 main class and 5 class with task. New Class = difficulty of task.">
+      <created>1664261340893</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664261340893</updated>
+    </task>
+    <task id="LOCAL-00008" summary="practice for lecture 7 - The task of implementing imitation has been completed.">
+      <created>1664796682687</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664796682687</updated>
+    </task>
+    <task id="LOCAL-00009" summary="practice for lecture 7 - The task of implementing imitation has been completed.">
+      <created>1665753081337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665753081337</updated>
+    </task>
+    <task id="LOCAL-00010" summary="practice 3 and 4">
+      <created>1671045670347</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671045670347</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Proba 1">
+      <created>1671139869275</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671139869275</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Proba 1">
+      <created>1671140540578</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671140540578</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/lecture4" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="ProgramingJava" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 3 - add class, which calculate sum of credit pays." />
+    <MESSAGE value="practice4 - changed int to String for variable number" />
+    <MESSAGE value="practice4 - add method to String into class Person and Phone" />
+    <MESSAGE value="practice2 - add 1 main class and 5 class with task. New Class = difficulty of task." />
+    <MESSAGE value="practice for lecture 7 - The task of implementing imitation has been completed." />
+    <MESSAGE value="practice 3 and 4" />
+    <MESSAGE value="Proba 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proba 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="37" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="42" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FundamentalsLecture_6/App.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/FundamentalsLecture_7/App.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+        <PinnedItemInfo parentTag="practice4Exception.Group" memberName="groupName" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

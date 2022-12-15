@@ -1,0 +1,21 @@
+Index: src/practice1/Credit.java
+===================================================================
+diff --git a/src/practice1/Credit.java b/src/practice1/Credit.java
+--- a/src/practice1/Credit.java	
++++ b/src/practice1/Credit.java	
+@@ -19,12 +19,11 @@
+         // Цикл розраховує розмір щомісячного платежу за тілом і відсотки
+         for (int i = 1; i <= period; i++) {
+             System.out.println("Сума оплати тіла кредиту за місяць " + i + ": " + getFormat(bodyPay));
+-            float percentpay = creditSum * mounthlyPay; // Сума сплати відсотків у місяць
++            float percentpay = creditSum * mounthlyPay;
+             System.out.println("Сума оплати відсотків за місяць " + i + ": " + getFormat(percentpay));
+-            creditSum = creditSum - bodyPay; // Зміна розміру тіла кредиту після сплати ануїтетного платежу
+-            allInterestPay = allInterestPay + percentpay; // Підрахунок загальної суми сплачених відсотків
++            creditSum = creditSum - bodyPay;
++            allInterestPay = allInterestPay + percentpay;
+         }
+-        // Вивід на екран загальної суми сплачених відсотків
+         System.out.println("Загальна сума відсотків: " + getFormat(allInterestPay));
+ 
+         //АНУЇТЕТНИЙ МЕТОД РОЗРАХУНКУ

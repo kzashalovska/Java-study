@@ -1,0 +1,18 @@
+Index: src/practice4/App.java
+===================================================================
+diff --git a/src/practice4/App.java b/src/practice4/App.java
+--- a/src/practice4/App.java	
++++ b/src/practice4/App.java	
+@@ -17,9 +17,9 @@
+         Phone telefonNikita = new Phone(numberNikita, model1, weight2);
+         Phone telefonTanya = new Phone(numberTanya, model2, weight3);
+ 
+-        System.out.println(telefonKolya.toString());
+-        System.out.println(telefonNikita.toString());
+-        System.out.println(telefonTanya.toString());
++        System.out.println(telefonKolya);
++        System.out.println(telefonNikita);
++        System.out.println(telefonTanya);
+ 
+         final String name1 = "Kolya";
+         final String name2 = "Nikita";
