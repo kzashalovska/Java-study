@@ -1,7 +1,7 @@
 package FundamentalsPractice_3;
 
 import java.util.Arrays;
-
+// main file for task 3. Inheritance
 public class App {
     public static double totalSalary = 0;
     public static void main(String[] args) {
