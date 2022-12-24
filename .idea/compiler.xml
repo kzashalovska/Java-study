@@ -6,6 +6,20 @@
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+<<<<<<< HEAD
     </annotationProcessing>
+=======
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="programmingTrening" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-parent" target="1.8" />
+      <module name="programmingTrening" target="1.8" />
+    </bytecodeTargetLevel>
+>>>>>>> origin/master
   </component>
 </project>
