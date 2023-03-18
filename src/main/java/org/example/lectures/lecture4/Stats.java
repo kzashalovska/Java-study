@@ -1,6 +1,6 @@
 package org.example.lectures.lecture4;
 
-public class Stats<T extends Number> {
+public class    Stats<T extends Number> {
     private T[] num;
 
     double average(){

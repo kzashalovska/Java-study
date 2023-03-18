@@ -1,5 +1,7 @@
 package org.example.lectures.lecture4;
 
+import java.util.Arrays;
+
 public class Pair<T> {
     private T first;
     private T second;
@@ -34,5 +36,14 @@ public class Pair<T> {
 
     public void setSecond(T second) {
         this.second = second;
+    }
+
+    @Override
+    public String toString() {
+        return "Pair{" +
+                "first=" + first +
+                ", second=" + second +
+                ", array=" + Arrays.toString(array) +
+                '}';
     }
 }

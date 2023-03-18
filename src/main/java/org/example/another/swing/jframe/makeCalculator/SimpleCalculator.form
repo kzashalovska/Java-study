@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.another.swing.jframe.makeCalculator.SimpleCalculator">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="400"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1874" binding="topPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="600" height="80"/>
+            <preferred-size width="280" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4476139"/>
+          <font name="Droid Sans Mono Slashed" size="16"/>
+          <foreground color="-15913797"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1e3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15197765"/>
+              <text value="First Number"/>
+            </properties>
+          </component>
+          <component id="39841" class="javax.swing.JTextField" binding="num1Field1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-262149"/>
+              <font name="Bodoni Bd BT" size="16"/>
+            </properties>
+          </component>
+          <component id="d0aab" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-15197765"/>
+              <text value="Result"/>
+            </properties>
+          </component>
+          <component id="d3402" class="javax.swing.JTextField" binding="num2Field2">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-262149"/>
+              <font name="Bodoni Bd BT" size="16"/>
+            </properties>
+          </component>
+          <component id="66260" class="javax.swing.JTextField" binding="resultField3">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-262149"/>
+              <dragEnabled value="false"/>
+              <editable value="false"/>
+              <font name="Bodoni Bd BT" size="16"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="cc012" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="125" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-15197765"/>
+              <text value="Second Number"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b3aa4" binding="bottomPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="600" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16598272"/>
+          <foreground color="-16117829"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8c6f8" class="javax.swing.JButton" binding="ADDButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Button"/>
+              <text value="ADD"/>
+            </properties>
+          </component>
+          <component id="3801e" class="javax.swing.JButton" binding="MODButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="MOD"/>
+            </properties>
+          </component>
+          <component id="852e5" class="javax.swing.JButton" binding="CLEARButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <label value="CLEAR"/>
+              <text value="CLEAR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

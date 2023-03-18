@@ -2,7 +2,6 @@ package org.example.lectures.lecture4;
 
 import org.example.practice.practice1.task5.Group;
 import org.example.practice.practice1.task5.Student;
-import org.example.practice.practice2.easyTask.NameRank;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,6 +12,19 @@ public class App {
         Pair<String> pair = new Pair<>("Vasya", "25");
         System.out.println(pair.getFirst().charAt(2));
         System.out.println(pair.getSecond().charAt(1));
+
+        Human<Integer, Character> human = new Human<>("Vasya", 25, 'M');
+        Human<Double, Character> human1 = new Human<>("Masha", 37., 'F');
+        Human<Integer, Sex> human2 = new Human<>("Masha", 37, Sex.FEMALE);
+
+        List<Human<? extends Number, ?>> list1 = new ArrayList<>();
+        list1.add(human);
+        list1.add(human1);
+        list1.add(human2);
+        System.out.println(list1.get(1).getAge().doubleValue());
+        human.printArray(new Integer[]{1, 2, 3});
+        human.<Integer>increaseArray(new Integer[]{1, 2, 3});
+
 
         Node<Integer, String> node = new Node<>(1, "Sveta");
 
@@ -38,9 +50,9 @@ public class App {
 
         E<Integer, String> stringE = new E<>();
         //stringE.var;
-        
+
         pair.init();
-        for (String s : pair.init()){
+        for (String s : pair.init()) {
             System.out.println(s);
         }
 
@@ -60,12 +72,11 @@ public class App {
 }
 
 class A {
-
+    int i;
 }
 
 class B<T> extends A {
     T var;
-
 }
 
 class C<T> extends B<T> {
