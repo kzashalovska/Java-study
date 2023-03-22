@@ -27,7 +27,6 @@ public class App1 {
             properties.store(new FileOutputStream(path), "My properties");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
