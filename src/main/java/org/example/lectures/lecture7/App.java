@@ -7,7 +7,7 @@ public class App {
         Thread thread = new Thread(new MyRunnable());
         thread.start();
         AutoRun autoRun = new AutoRun();
-        new AutoRun();
+
         for (int i = 0; i < 10; i++) {
             try {
                 Thread.sleep(10);

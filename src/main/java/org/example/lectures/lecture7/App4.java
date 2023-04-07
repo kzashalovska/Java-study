@@ -7,6 +7,5 @@ public class App4 {
         Player player2 = new Player("Kolya", chers);
         new Thread(player1).start();
         new Thread(player2).start();
-
     }
 }

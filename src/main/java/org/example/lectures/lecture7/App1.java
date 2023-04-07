@@ -13,12 +13,12 @@ public class App1 {
             }
             System.out.println("BOOM!");
         });
-        thread.setDaemon(true );
+        thread.setDaemon(true);
         System.out.println(thread.getState());
         thread.start();
         System.out.println(thread.getState());
         try {
-            thread.join(50);
+            thread.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

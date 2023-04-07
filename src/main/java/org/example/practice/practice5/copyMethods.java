@@ -62,6 +62,8 @@ public class copyMethods {
     }
 
     public static void bufferedByteCopy(String path, String newPath) {
+
+
         long start = System.currentTimeMillis();
         try (InputStream inputStream = Files.newInputStream(Paths.get(path));
              BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream)
